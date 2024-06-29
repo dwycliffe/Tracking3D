@@ -2,8 +2,11 @@
 Unity project simulating stereo triangulation of a customer walking through a warehouse
 
 Every second, each camera takes a pictures and attempts to find the center point of the red sphere in the image. 
+
 This pixel coordinate location is used along with the corresponding camera's intrinsic and extrinsic parameters to create a world space ray. 
+
 Pairs of cameras are used to calculate their ray intersection point to estimate the 3D position of the red sphere. 
+
 Their estimate is visualized through a green sphere with text displaying which two cameras created the estimate. 
 
 
