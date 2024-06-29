@@ -9,6 +9,10 @@ Pairs of cameras are used to calculate their ray intersection point to estimate 
 Their estimate is visualized through a green sphere with text displaying which two cameras created the estimate. 
 
 
+# Demo
+[![Video Title]](https://vimeo.com/971766248?share=copy)
+
+
 # Simulated cameras and FOV
 ![Camera FOVs iin order from left to right: C1, C2, C3 and C4](Media/CameraFOV.png)
 
