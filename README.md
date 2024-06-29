@@ -19,3 +19,7 @@ Their estimate is visualized through a green sphere with text displaying which t
 # Known Issues 
 If the red sphere is not fully visible in the camera image, the center point coordinates will be off leading to incorrect 3D estimates. 
 Lag during the picture capture and processing. 
+
+
+# To Run 
+Download zip files and unpack. Use Unity 2023.2.3f1 or higher to launch the project and press play to start the simulation.
