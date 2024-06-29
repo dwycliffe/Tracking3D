@@ -6,6 +6,8 @@ This pixel coordinate location is used along with the corresponding camera's int
 Pairs of cameras are used to calculate their ray intersection point to estimate the 3D position of the red sphere. 
 Their estimate is visualized through a green sphere with text displaying which two cameras created the estimate. 
 
+
+# The Cameras in the simulation and their rough FOV
 ![Camera FOVs iin order from left to right: C1, C2, C3 and C4](Media/CameraFOV.png)
 
 
