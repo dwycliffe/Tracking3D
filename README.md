@@ -1,7 +1,6 @@
-# Tracking3D
-Unity project simulating stereo triangulation of a customer walking through a warehouse
+# Tracking3D - Unity3D project simulating stereo triangulation of a customer walking through a warehouse
 
-Every second, each camera takes a pictures and attempts to find the center point of the red sphere in the image. 
+Each second, all cameras take a pictures. That picture is used to estimate the 2D pixel coordinates of the customer. 
 
 This pixel coordinate location is used along with the corresponding camera's intrinsic and extrinsic parameters to create a world space ray. 
 
@@ -10,7 +9,7 @@ Pairs of cameras are used to calculate their ray intersection point to estimate 
 Their estimate is visualized through a green sphere with text displaying which two cameras created the estimate. 
 
 
-# The Cameras in the simulation and their rough FOV
+# Simulated cameras and FOV
 ![Camera FOVs iin order from left to right: C1, C2, C3 and C4](Media/CameraFOV.png)
 
 
