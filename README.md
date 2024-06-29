@@ -9,8 +9,7 @@ Pairs of cameras are used to calculate their ray intersection point to estimate 
 Their estimate is visualized through a green sphere with text displaying which two cameras created the estimate. 
 
 
-# Demo
-[![Video Title]](https://vimeo.com/971766248?share=copy)
+[[Simple Tracking Video Demo]](https://vimeo.com/971766248?share=copy)
 
 
 # Simulated cameras and FOV
