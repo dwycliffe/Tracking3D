@@ -1,6 +1,6 @@
 # Simulating stereo triangulation of a customer walking through a warehouse in Unity3D
 
-Each second, all cameras take a pictures. That picture is used to estimate the 2D pixel coordinates of the customer. 
+All cameras in the scene take a picture on a one second loop. That picture is inspected and the average location of the red pixels is extracted.
 
 This pixel coordinate location is used along with the corresponding camera's intrinsic and extrinsic parameters to create a world space ray. 
 
