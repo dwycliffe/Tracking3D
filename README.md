@@ -14,13 +14,11 @@ Cameras that are being used in the 3D prediction are shown in green. If multiple
 [[Simple Tracking Video Demo]](https://vimeo.com/971942725?share=copy)
 
 
-# Simulated cameras and FOV
-![Camera FOVs iin order from left to right: C1, C2, C3 and C4](Media/CameraFOV.png)
-
-
 # Known Issues 
+Lag during the picture capture and processing. All File IO and image processing is done in C#.
+
 If the red sphere is not fully visible in the camera image, the center point coordinates will be off leading to incorrect 3D estimates. 
-Lag during the picture capture and processing. 
+
 
 
 # To Run 
