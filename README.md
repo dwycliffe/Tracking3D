@@ -8,6 +8,8 @@ Pairs of cameras are used to calculate their ray intersection point to estimate 
 
 Their estimate is visualized through a green sphere with text displaying which two cameras created the estimate. 
 
+Cameras that are being used in the 3D prediction are shown in green. If multiple camera pairs produce a prediction the average is used.
+
 
 [[Simple Tracking Video Demo]](https://vimeo.com/971942725?share=copy)
 
