@@ -15,7 +15,7 @@ Cameras that are being used in the 3D prediction are shown in green. If multiple
 
 
 # Known Issues 
-Lag during the picture capture and processing. All File IO and image processing is done in C#.
+Lag during the picture capture and processing. All File IO and image processing is done in C# and is not optimized.
 
 If the red sphere is not fully visible in the camera image, the center point coordinates will be off leading to incorrect 3D estimates. 
 
