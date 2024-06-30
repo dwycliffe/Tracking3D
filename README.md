@@ -1,4 +1,4 @@
-# Simulating stereo triangulation of a customer walking through a warehouse in Unity3D
+# Stereo Triangulation
 
 All cameras in the scene take a picture on a one second loop. That picture is inspected and the average location of the red pixels is extracted.
 
@@ -23,3 +23,5 @@ If the red sphere is not fully visible in the camera image, the center point coo
 
 # To Run 
 Download zip files and unpack. Use Unity 2023.2.3f1 or higher to launch the project and press play to start the simulation.
+
+
